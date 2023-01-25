@@ -30,7 +30,7 @@ spec:
             - name: PORT
               value: "{{ .Values.backend.containerPort }}"
             - name: NEW_RELIC_APP_NAME
-              value: "Anythink Market"
+              value: "Anythink Market_Backend"
             - name: NEW_RELIC_LICENSE_KEY
               valueFrom:
                 secretKeyRef:
