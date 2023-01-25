@@ -22,9 +22,7 @@ exports.config = {
   allow_all_headers: true,
   application_logging: {
     forwarding: {
-      /**
-       * Toggles whether the agent gathers log records for sending to New Relic.
-       */
+      
       enabled: true
     }
   },
